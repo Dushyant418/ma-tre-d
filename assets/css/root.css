@@ -31,7 +31,34 @@
 
     /* color */
     --para-col: #4D4D4D;
+    --color-black: #000000;
+    --color-bg-white: #FFFFFF;
+    --color-blue: #2196F3;
+    --dark-orange: #FD9B2B;
+    --lign-orange: #F14F09;
+    --lit-pink: #F88673;
+    --bg-gradient: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
 }
+
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-bg-white {
+    color: var(--color-bg-white);
+}
+
+.color-dark-orange {
+    color: var(--dark-orange);
+}
+
+.color-light-orange {
+    color: var(--lign-orange);
+}
+
+
+
 
 .fs-12 {
     font-size: var(--fs-ssm);
