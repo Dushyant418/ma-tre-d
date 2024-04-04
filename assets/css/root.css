@@ -7,8 +7,8 @@
     --fs-lg: 23px;
     --fs-xl: 24px;
     --fs-2xl: 40px;
-    --fs-3xl: 61px;
-    --fs-4xl: 48px;
+    --fs-3xl: 48px;
+    --fs-4xl: 61px;
 
     /* font-weight */
     --fw-400: 400;
@@ -37,6 +37,7 @@
     --dark-orange: #FD9B2B;
     --lign-orange: #F14F09;
     --lit-pink: #F88673;
+    --lst-para: #B2B2B2;
     --bg-gradient: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
 }
 
@@ -89,11 +90,11 @@
 }
 
 .fs-48 {
-    font-size: var(--fs-4xl);
+    font-size: var(--fs-3xl);
 }
 
 .fs-61 {
-    font-size: var(--fs-3xl);
+    font-size: var(--fs-4xl);
 }
 
 
@@ -175,7 +176,7 @@
         --fs-lg: 23px;
         --fs-xl: 21px;
         --fs-2xl: 35px;
-        --fs-3xl: 50px;
+        --fs-4xl: 50px;
 
         /* line-height */
         --lh-18: 18px;
